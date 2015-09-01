@@ -3,7 +3,7 @@ node-kugou-client
 
 1. install
 
-    `npm install kgclient`
+    `npm install node-kugou-client`
 
 2. useage
 
