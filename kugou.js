@@ -6,7 +6,7 @@
 (function() {
     var md5 = require("md5");
     var cli = new(require("node-rest-client").Client)();
-    var deferred = require("q").defer();
+    var Q = require("q");
     var urls = {
         searchbyname: "http://lib9.service.kugou.com/websearch/index.php",
         complete: "http://mobilecdn.kugou.com/new/app/i/search.php",
@@ -17,6 +17,7 @@
     };
     var kugou = module.exports = {
         search: function(keyword, pagesize, page) {
+            var deferred = Q.defer();
             pagesize = typeof pagesize !== "undefined" ? pagesize: 9;
             page = typeof page !== "undefined" ? page: 1;
             if (typeof(keyword) === "undefined") {
@@ -43,6 +44,7 @@
             return deferred.promise;
         },
         complete: function(keyword) {
+            var deferred = Q.defer();
             if (typeof(keyword) === "undefined") {
                 throw new Error("keyword must be not empty");
             }
@@ -65,6 +67,7 @@
             return deferred.promise;
         },
         getsonginfo: function(hash) {
+            var deferred = Q.defer();
             if (typeof(hash) === "undefined") {
                 throw new Error("hash value must be not empty");
             }
