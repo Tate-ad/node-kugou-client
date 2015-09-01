@@ -64,7 +64,7 @@
             });
             return deferred.promise;
         },
-        getinfo: function(hash) {
+        getsonginfo: function(hash) {
             if (typeof(hash) === "undefined") {
                 throw new Error("hash value must be not empty");
             }

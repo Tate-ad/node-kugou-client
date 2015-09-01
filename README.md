@@ -26,6 +26,6 @@ node-kugou-client
 
     kugou.search("jiaju")
     kugou.complete("jiaju")
-    kugou.getinfo("F9C5D096E393DBC017CBED9815E37685")
+    kugou.getsonginfo("F9C5D096E393DBC017CBED9815E37685")
 
     ```

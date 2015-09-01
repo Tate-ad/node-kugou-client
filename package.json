@@ -1,6 +1,6 @@
 {
   "name": "node-kugou-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "kugou node client",
   "main": "kugou.js",
   "dependencies": {

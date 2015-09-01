@@ -14,7 +14,7 @@ var kugou = require("./kugou");
 //     console.log(error);
 // });
 
-kugou.getinfo("F9C5D096E393DBC017CBED9815E37685").then(function(data) {
+kugou.getsonginfo("F9C5D096E393DBC017CBED9815E37685").then(function(data) {
     console.log(data);
 }).
 catch(function(error) {
