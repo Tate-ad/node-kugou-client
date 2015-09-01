@@ -1,7 +1,7 @@
 {
   "name": "node-kugou-client",
   "version": "0.0.1",
-  "description": "kugou npm client",
+  "description": "kugou node client",
   "main": "kugou.js",
   "dependencies": {
     "node-rest-client": "1.5.1",
@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/brentertz/scapegoat.git"
+    "url": "git://github.com/Tate-ad/node-kugou-client.git"
   },
-  "author": "Tate Fan <tate_fan@163.com",
+  "author": "Tate Fan <tate_fan@163.com>",
   "keywords": [ "kugou", "node", "client"],
-  "license": "ISC"
+  "license": "MIT"
 }
