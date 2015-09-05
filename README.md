@@ -5,14 +5,14 @@ node-kugou-client
 
     `npm install node-kugou-client`
 
-2. useage
+2. how to use
 
     ```javascript
 
     var kugou = require("node-kugou-client");
 
     kugou.search("jiaju").then(function(data){
-        console.log(JSON.parse(data));
+        console.log(data);
     }).
     catch(function(error){
         console.log(error)
