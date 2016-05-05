@@ -13,6 +13,13 @@
     "url": "git://github.com/Tate-ad/node-kugou-client.git"
   },
   "author": "Tate Fan <tate_fan@163.com>",
-  "keywords": [ "kugou", "node", "client"],
-  "license": "MIT"
+  "keywords": [
+    "kugou",
+    "node",
+    "client"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
 }
